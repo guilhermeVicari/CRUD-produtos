@@ -1,2 +1,2 @@
 # CRUD-produtos
-Esse projeto foi feito para treinamento de lógica para aplicação dos meus estudos em python.
+Projeto que trata entrada e saída de dados.
