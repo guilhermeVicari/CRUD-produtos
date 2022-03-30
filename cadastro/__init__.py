@@ -37,7 +37,10 @@ def cadastroProduto():
 
 def verLista():
     menu("INFORMAÇÕES PRODUTOS")
-    for elemento in lista_produtos:
-        for chave, valor in elemento.items():
-            print(f'{chave}:\t{valor}')
-        print("-"*10)
+    if len(lista_produtos) == 0:
+        return 'Não existe produto cadastrado!!'
+    else:
+        for elemento in lista_produtos:
+            for chave, valor in elemento.items():
+                print(f'{chave}:\t{valor}')
+            print("-"*10)

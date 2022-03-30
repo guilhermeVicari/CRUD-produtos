@@ -25,7 +25,7 @@ while True:
             escolha = int(input("Digite a opção desejada: "))
 
         if escolha == 1:
-            verLista()
+            print(verLista())
 
         if escolha == 2:
             print(cadastroProduto())
